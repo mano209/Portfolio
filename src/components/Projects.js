@@ -1,6 +1,6 @@
-import WebsiteImg1 from "../assets/ecommerce-websites.jpg";
-import WebsiteImg2 from "../assets/food-ecommerce.jpg";
-import WebsiteImg3 from "../assets/website-blog.jpg";
+import WebsiteImg1 from "../assets/Todo-Screenshot.png";
+import WebsiteImg2 from "../assets/Moviesearch-screenshot.png";
+import WebsiteImg3 from "../assets/Crud app -Screenshot.png";
 
 export default function Projects() {
   return (
@@ -23,18 +23,18 @@ export default function Projects() {
         <div className="flex flex-col md:flex-row px-10 gap-5">
           <div className="relative">
             <img
-              className="h-[200px] w-[500px]"
+              className="h-[250px] w-[600px]"
               src={WebsiteImg1}
               alt="project"
             />
             <div className="project-desc">
               <p className="text-center px-5 py-5">
-                A Ecommerce website. Built with React JS
+              Introducing a to-do app, designed to simplify your daily tasks and boost your productivity!
               </p>
-              <div>
+              <div className="flex justify-center">
                 <a
                   className="btn"
-                  href="https://github.com/mano209/TODO-App"
+                  href="https://todo-app-git-main-mano209s-projects.vercel.app/"
                 >
                   View Project
                 </a>
@@ -43,18 +43,18 @@ export default function Projects() {
           </div>
           <div className="relative">
             <img
-              className="h-[200px] w-[500px]"
+              className="h-[250px] w-[600px]"
               src={WebsiteImg2}
               alt="project"
             />
             <div className="project-desc">
               <p className="text-center px-5 py-5">
-                Food Ecommerce website like Swiggy, Built with React JS
+              Get detailed information about cast, summaries and reviews, helping you make what to watch next.
               </p>
-              <div>
+              <div className="flex justify-center">
                 <a
                   className="btn"
-                  href="https://github.com/mano209/TODO-App"
+                  href="https://search-movies-oiepf60cd-mano209s-projects.vercel.app/"
                 >
                   View Project
                 </a>
@@ -63,18 +63,18 @@ export default function Projects() {
           </div>
           <div className="relative">
             <img
-              className="h-[200px] w-[500px]"
+              className="h-[250px] w-[600px]"
               src={WebsiteImg3}
               alt="project"
             />
             <div className="project-desc">
               <p className="text-center px-5 py-5">
-                Basic Blog website . Built with React Js
+              Introducing a CRUD app, the ultimate tool for managing your data with efficiency and ease.
               </p>
-              <div>
+              <div className="flex justify-center">
                 <a
                   className="btn"
-                  href="https://github.com/mano209/TODO-App"
+                  href="https://crud-app-git-main-mano209s-projects.vercel.app/"
                 >
                   View Project
                 </a>

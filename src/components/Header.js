@@ -5,7 +5,7 @@ export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <header className="flex justify-between px-5 py-3 bg-primary">
-      <a className="font-bold text-black" href="https://github.com/mano209">
+      <a id="heading" className="font-bold text-black" href="https://github.com/mano209">
         Portfolio
       </a>
       <nav className="hidden md:block">
