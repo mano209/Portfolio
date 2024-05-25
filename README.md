@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Mano and I'm a Frontend Developer, from Banglore.</p>
+
 
 ###
 
