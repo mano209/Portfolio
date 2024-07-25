@@ -1,5 +1,5 @@
 import WebsiteImg1 from "../assets/Todo-Screenshot.png";
-import WebsiteImg2 from "../assets/Moviesearch-screenshot.png";
+import WebsiteImg2 from "../assets/Shoe Cart.png";
 import WebsiteImg3 from "../assets/Crud app -Screenshot.png";
 
 export default function Projects() {
@@ -14,7 +14,7 @@ export default function Projects() {
             Projects
           </h1>
           <p>
-            These are some of my projects. I have built these with React, CSS3
+            These are some of my projects. I have built these with Javascript, React, CSS3
             and Redux. Check Them out.
           </p>
         </div>
@@ -49,12 +49,12 @@ export default function Projects() {
             />
             <div className="project-desc">
               <p className="text-center px-5 py-5">
-              Get detailed information about cast, summaries and reviews, helping you make what to watch next.
+              Managed and optimized content for a online shoe retailer ensuring a seamless user experience.
               </p>
               <div className="flex justify-center">
                 <a
                   className="btn"
-                  href="https://search-movies-oiepf60cd-mano209s-projects.vercel.app/"
+                  href="https://shoe-cart-git-main-mano209s-projects.vercel.app/"
                 >
                   View Project
                 </a>

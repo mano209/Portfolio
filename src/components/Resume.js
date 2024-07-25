@@ -1,11 +1,11 @@
 import React from "react";
 import ResumeImg from "../assets/resume.jpg";
-import Resume from "../Resume/MANO.B Resume.pdf"
+import Resume from "../Resume/Mano-B-Resume.pdf"
 
 export default function About() {
   return <section id="resume" className="flex flex-col md:flex-row bg-secondary px-5">
       <div className="md:w-1/2 py-5 flex justify-center md:justify-end">
-        <img className="w-[300px]" src={ResumeImg} />
+        <img className="w-[300px]" src={ResumeImg} alt='resume img'/>
       </div>
       <div className="md:w-1/2 flex justify-center">
         <div className="flex flex-col justify-center text-white">
